@@ -2,7 +2,7 @@
 slug: agile-brazil-2013-resumo
 title: Agile Brazil 2013 – Resumo
 description: Resumo do Agile Brazil 2013
-tags: [Novidades, Agile, Gestão de Empresas, Gestão de Pessoas, Gestão de Processos, Gestão de Projetos, Kanban, Métodos Ágeis]
+tags: [Novidades, Agile, Gestão de Empresas, Gestão de Pessoas, Gestão de Processos, Gestão de Projetos, Kanban, Processos Ágeis]
 ---
 
 Resumo das palestras que assisti no Agile Brazil 2013:
