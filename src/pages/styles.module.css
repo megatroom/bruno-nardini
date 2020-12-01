@@ -9,6 +9,20 @@
   margin-top: 30px;
 }
 
+.topic {
+  padding-bottom: 32px;
+}
+
+.topicFooter {
+  border-top: 1px solid var(--ifm-color-gray-300);
+  padding-top: 16px;
+}
+
+.topicButtonIcon {
+  vertical-align: sub;
+  margin-right: 8px;
+}
+
 .postCard {
   margin-bottom: 32px;
 }
@@ -21,6 +35,11 @@
   border-radius: 7px;
   box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 2px 6px 0px, rgba(0, 0, 0, 0.09) 0px 3px 8px 0px;
+}
+
+.postImageLink:hover {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 4px 0px,
+    rgba(0, 0, 0, 0.09) 0px 3px 8px 0px, rgba(0, 0, 0, 0.13) 0px 4px 13px 0px;
 }
 
 .postImage {
@@ -38,4 +57,8 @@
 
 .postTitle {
   margin-top: 16px;
+}
+
+.postTitleLink {
+  color: var(--ifm-font-color-base);
 }

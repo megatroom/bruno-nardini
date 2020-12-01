@@ -91,6 +91,10 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             "https://github.com/megatroom/bruno-nardini/edit/master/website/blog/",
+          feedOptions: {
+            type: "rss",
+            copyright: `Copyright © ${new Date().getFullYear()} Bruno Nardini.`,
+          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
