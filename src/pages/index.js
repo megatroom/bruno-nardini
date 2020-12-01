@@ -1,96 +1,98 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import useGlobalData from "@docusaurus/useGlobalData";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import styles from "./styles.module.css";
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
+    id: 1,
+    main: true,
+    title: "Padrão de projetos para Rotas",
+    imageUrl: "img/routes.jpg",
+    link: "/blog/padrao-de-projetos-para-rotas",
+    summary: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Criar rotas é uma tarefa bem simples, a maioria dos frameworks já dão
+        suporte nativo, mas com o crescimento do projeto algumas decisões podem
+        dificultar a manutenção. Neste artigo vou dar uma sugestão de como
+        organizar as rotas para facilitar o desenvolvimento de projetos
+        complexos.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    id: 2,
+    title: "Tudo que você queria saber sobre Trabalho Remoto",
+    imageUrl: "img/trabalho_remoto.jpg",
+    link: "/blog/tudo-que-voce-queria-saber-sobre-trabalho-remoto",
+    summary: <>Minha palestra no Rio Sul Valley Dev Summit 2017.</>,
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
+    id: 3,
+    title: "Notificações, Toast, React e Redux",
+    imageUrl: "img/blue_bg_react.png",
+    link: "/blog/notificacoes-toast-react-e-redux",
+    summary: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A missão era simples: enviar uma mensagem não bloqueante de sucesso ou
+        erro em resposta a uma requisição assíncrona. Seria simples se não
+        fosse...
       </>
     ),
   },
 ];
 
-function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
+function Post({ id, main, link, title, imageUrl, summary }) {
   return (
-    <div className={clsx('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+    <div
+      key={`post-${id}`}
+      className={clsx("col", main ? "col--6" : "col--3", styles.postCard)}
+    >
+      <Link className={styles.postImageLink} to={useBaseUrl(link)}>
+        <img
+          width="1024"
+          height="538"
+          loading="lazy"
+          src={imageUrl}
+          className={styles.postImage}
+          alt=""
+        />
+      </Link>
+      <h2 className={styles.postTitle}>
+        <Link to={useBaseUrl(link)} title={title} rel="bookmark">
+          {title}
+        </Link>
+      </h2>
+      <div>{summary}</div>
     </div>
   );
 }
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const globalData = useGlobalData();
+  const { siteConfig = {} } = context;
+
+  // console.log(globalData);
+
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
-          </div>
-        </div>
-      </header>
-      <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
+    <>
+      <Layout title={siteConfig.title} description="Bruno Nardini Blog">
+        <section className={styles.section}>
+          <div className="container">
+            <div className="row">
+              {features.map((feat) => (
+                <Post {...feat} />
+              ))}
             </div>
-          </section>
-        )}
-      </main>
-    </Layout>
+          </div>
+        </section>
+      </Layout>
+    </>
   );
 }
 
