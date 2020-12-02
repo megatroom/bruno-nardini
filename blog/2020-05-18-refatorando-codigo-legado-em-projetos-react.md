@@ -3,6 +3,7 @@ slug: refatorando-codigo-legado-em-projetos-react
 title: Refatorando código legado em projetos React
 description: Refatorando código legado em projetos React
 tags: [Front-end, React, TDD, Testes, Código Legado, Melhores Práticas]
+image: img/medium/1_DH1WAfrSGFbYKoBv8rjnfw.jpeg
 ---
 
 Em 2019 escrevi um série de 5 artigos explicando passo a passo como refatorar um código legado em um projeto React:

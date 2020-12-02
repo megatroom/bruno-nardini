@@ -3,6 +3,7 @@ slug: padrao-de-projetos-para-rotas
 title: Padrão de projetos para Rotas
 description: Padrão de projetos para Rotas
 tags: [Front-end, Boas Pŕaticas, DRY, JavaScript, React]
+image: img/routes.jpg
 ---
 
 Criar rotas é uma tarefa bem simples, a maioria dos frameworks já dão suporte nativo, mas com o crescimento do projeto algumas decisões podem dificultar a manutenção. Neste artigo vou dar uma sugestão de como organizar as rotas para facilitar o desenvolvimento de projetos complexos.

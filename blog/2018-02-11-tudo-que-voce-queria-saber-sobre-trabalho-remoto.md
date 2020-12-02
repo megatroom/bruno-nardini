@@ -3,6 +3,7 @@ slug: tudo-que-voce-queria-saber-sobre-trabalho-remoto
 title: Tudo que você queria saber sobre Trabalho Remoto
 description: Tudo que você queria saber sobre Trabalho Remoto
 tags: [Carreira, Palestras, Gestão de pessoas, Gestão de processos, Scrum]
+image: img/trabalho_remoto.jpg
 ---
 
 Minha palestra no Rio Sul Valley Dev Summit 2017:

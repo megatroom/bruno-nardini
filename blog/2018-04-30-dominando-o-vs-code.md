@@ -3,6 +3,7 @@ slug: dominando-o-vs-code
 title: Dominando o VS Code
 description: Neste artigo vou mostrar como eu o turbinei com plugins e configurações para ser muito mais produtivo.
 tags: [Front-end, Back-end, VS Code, Produtividade]
+image: img/vscode-bg.png
 ---
 
 Já tem alguns anos que adotei o Visual Studio Code como minha IDE principal para desenvolvimento web. Neste artigo vou mostrar como eu o turbinei com plugins e configurações para ser muito mais produtivo.
