@@ -11,13 +11,11 @@ export default function BlogListPage({ metadata, items }) {
   const {
     siteConfig: { title: siteTitle },
   } = useDocusaurusContext();
-  const { blogDescription, blogTitle, permalink } = metadata;
-  const isBlogOnlyMode = permalink === "/";
-  const title = isBlogOnlyMode ? siteTitle : blogTitle;
+  const { blogDescription, blogTitle } = metadata;
 
   return (
     <Layout
-      title={title}
+      title={blogTitle || siteTitle}
       description={blogDescription}
       wrapperClassName="blog-wrapper"
     >
@@ -26,7 +24,7 @@ export default function BlogListPage({ metadata, items }) {
           <div className="row">
             {items.map(({ content: BlogPostContent }) => {
               const { title, image } = BlogPostContent.frontMatter;
-              const { date, readingTime } = BlogPostContent.metadata;
+              const { date, readingTime, permalink } = BlogPostContent.metadata;
 
               return (
                 <div

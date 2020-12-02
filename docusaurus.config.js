@@ -12,13 +12,13 @@ module.exports = {
     navbar: {
       title: "Bruno Nardini",
       items: [
+        { to: "blog", label: "Nardini's Blog", position: "left" },
         {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
+          to: "medium/",
+          activeBasePath: "medium",
+          label: "Publicações no Medium",
           position: "left",
         },
-        { to: "blog", label: "Nardini's Blog", position: "left" },
         {
           href: "https://github.com/megatroom/bruno-nardini",
           label: "GitHub",

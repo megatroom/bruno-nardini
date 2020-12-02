@@ -22,14 +22,11 @@ export default function BlogTagsPostPage({ metadata, items }) {
     count,
     blogTitle,
     blogDescription,
-    permalink,
   } = metadata;
-  const isBlogOnlyMode = permalink === "/";
-  const title = isBlogOnlyMode ? siteTitle : blogTitle;
 
   return (
     <Layout
-      title={title}
+      title={blogTitle || siteTitle}
       description={blogDescription}
       wrapperClassName="blog-wrapper"
     >
@@ -45,7 +42,7 @@ export default function BlogTagsPostPage({ metadata, items }) {
           <div className="row">
             {items.map(({ content: BlogPostContent }) => {
               const { title, image } = BlogPostContent.frontMatter;
-              const { date, readingTime } = BlogPostContent.metadata;
+              const { date, readingTime, permalink } = BlogPostContent.metadata;
 
               return (
                 <div
