@@ -4,6 +4,29 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import styles from "./Post.module.css";
 
+const MONTHS = [
+  "Janeiro",
+  "Fevereiro",
+  "Março",
+  "Abril",
+  "Maio",
+  "Junho",
+  "Julho",
+  "Agosto",
+  "Setembro",
+  "Outubro",
+  "Novembro",
+  "Dezembro",
+];
+
+function formatDate(date) {
+  const match = date.substring(0, 10).split("-");
+  const year = match[0];
+  const month = MONTHS[parseInt(match[1], 10) - 1];
+  const day = parseInt(match[2], 10);
+  return `${day} de ${month}, ${year}`;
+}
+
 export default function Post({
   link,
   title,
@@ -12,6 +35,8 @@ export default function Post({
   readingTime,
   summary,
 }) {
+  const formattedDate = date && formatDate(date);
+
   return (
     <div className={styles.postCard}>
       {imageUrl && (
@@ -37,7 +62,7 @@ export default function Post({
         </Link>
       </h2>
       <div className={styles.postDate}>
-        {date} {readingTime}
+        {formattedDate} {readingTime}
       </div>
       <div>{summary}</div>
     </div>
