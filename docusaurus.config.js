@@ -30,45 +30,57 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Redes Sociais",
           items: [
-            {
-              label: "Style Guide",
-              to: "docs/",
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/megatroom",
             },
-          ],
-        },
-        {
-          title: "More",
-          items: [
             {
-              label: "Blog",
-              to: "blog",
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/in/brunonardini/",
             },
             {
               label: "GitHub",
-              href: "https://github.com/megatroom/bruno-nardini",
+              href: "https://github.com/megatroom",
+            },
+          ],
+        },
+        {
+          title: "Categorias",
+          items: [
+            {
+              label: "Front-end",
+              to: "/blog/tags/front-end",
+            },
+            {
+              label: "Back-end",
+              to: "/blog/tags/back-end",
+            },
+            {
+              label: "Mobile",
+              to: "/blog/tags/mobile",
+            },
+            {
+              label: "Carreira",
+              to: "/blog/tags/carreira",
+            },
+            {
+              label: "Processos Ágeis",
+              to: "/blog/tags/processos-ageis",
+            },
+          ],
+        },
+        {
+          title: "Mais",
+          items: [
+            {
+              label: "Nardini's Blog",
+              to: "blog",
+            },
+            {
+              label: "Publicações no Medium",
+              to: "medium",
             },
           ],
         },
