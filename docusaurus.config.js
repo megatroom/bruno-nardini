@@ -18,7 +18,7 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        { to: "blog", label: "Blog", position: "left" },
+        { to: "blog", label: "Nardini's Blog", position: "left" },
         {
           href: "https://github.com/megatroom/bruno-nardini",
           label: "GitHub",
@@ -95,6 +95,7 @@ module.exports = {
             type: "rss",
             copyright: `Copyright © ${new Date().getFullYear()} Bruno Nardini.`,
           },
+          postsPerPage: 9,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
