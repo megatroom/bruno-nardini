@@ -87,6 +87,10 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Bruno Nardini.`,
     },
+    prism: {
+      theme: require("prism-react-renderer/themes/github"),
+      darkTheme: require("prism-react-renderer/themes/dracula"),
+    },
   },
   presets: [
     [
@@ -94,17 +98,15 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl:
             "https://github.com/megatroom/bruno-nardini/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
             "https://github.com/megatroom/bruno-nardini/edit/master/website/blog/",
           feedOptions: {
-            type: "rss",
+            type: "all",
             copyright: `Copyright © ${new Date().getFullYear()} Bruno Nardini.`,
           },
           postsPerPage: 9,

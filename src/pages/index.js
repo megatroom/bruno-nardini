@@ -57,6 +57,7 @@ function Home() {
                         styles.topicButton
                       )}
                       href={useBaseUrl("blog")}
+                      target="_blank"
                     >
                       <FaBookReader className={styles.topicButtonIcon} />
                       Todos os posts
