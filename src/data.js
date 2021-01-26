@@ -9,6 +9,18 @@ function lazyId() {
 export const featurePosts = [
   {
     id: lazyId(),
+    title: "Como resolver o encadeamento de providers no React",
+    imageUrl: "img/hadouken.jpg",
+    link: "/blog/compose-providers",
+    summary: (
+      <>
+        Uma solução alternativa ao Provider Hell para projetos React com muito
+        providers encadeados.
+      </>
+    ),
+  },
+  {
+    id: lazyId(),
     title: "Padrão de projetos para Rotas",
     imageUrl: "img/routes.jpg",
     link: "/blog/padrao-de-projetos-para-rotas",
@@ -65,20 +77,6 @@ export const featurePosts = [
         Já tem alguns anos que adotei o Visual Studio Code como minha IDE
         principal para desenvolvimento web. Neste artigo vou mostrar como eu o
         turbinei com plugins e configurações para ser muito mais produtivo.
-      </>
-    ),
-  },
-  {
-    id: lazyId(),
-    title:
-      "Como fazer o Daily Scrum (Stand Up Meetings) de forma mais produtiva",
-    imageUrl: "img/daily-scrum.jpg",
-    link:
-      "/blog/como-fazer-o-daily-scrum-stand-up-meetings-de-forma-mais-produtiva",
-    summary: (
-      <>
-        Sugestões de como trazer os benefícios prometidos, deixando o Daily mais
-        produtivo.
       </>
     ),
   },

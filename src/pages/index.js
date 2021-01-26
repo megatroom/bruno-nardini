@@ -47,6 +47,8 @@ function Home() {
                         styles.topicButton
                       )}
                       href={useBaseUrl("blog/rss.xml")}
+                      target="_blank"
+                      rel="noopener"
                     >
                       <ImRss className={styles.topicButtonIcon} />
                       RSS Feed
