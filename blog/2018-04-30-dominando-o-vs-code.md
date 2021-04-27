@@ -32,6 +32,8 @@ Utilidade gerais:
 
 - [Emoji](https://marketplace.visualstudio.com/items?itemName=Perkovec.emoji) – Uma forma de adicionar emojis no texto.
 
+- [Gitmoji](https://marketplace.visualstudio.com/items?itemName=Vtrois.gitmoji-vscode) - Facilita adição do padrão [gitmoji](https://gitmoji.dev/).
+
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) – Torna possível marcar como favorito linhas em arquivos. Eu uso muito para arquivos que uso muito e sempre tenho dificuldade de achar, em casos de projetos grandes.
 
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) – Habilita suporte para Markdown.
