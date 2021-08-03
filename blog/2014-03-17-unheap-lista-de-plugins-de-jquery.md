@@ -1,7 +1,7 @@
 ---
 slug: unheap-lista-de-plugins-de-jquery
 title: Unheap – Lista de Plugins de JQuery
-description: 
+description: Lista de Plugins de JQuery
 tags: [Front-end, JQuery]
 ---
 
