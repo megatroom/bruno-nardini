@@ -102,13 +102,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/megatroom/bruno-nardini/edit/main/website/",
+          editUrl: "https://github.com/megatroom/bruno-nardini/edit/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            "https://github.com/megatroom/bruno-nardini/edit/main/website/blog/",
+          editUrl: "https://github.com/megatroom/bruno-nardini/edit/main/",
           feedOptions: {
             type: "all",
             copyright: `Copyright © ${new Date().getFullYear()} Bruno Nardini.`,
