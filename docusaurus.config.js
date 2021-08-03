@@ -24,6 +24,11 @@ module.exports = {
           position: "left",
         },
         {
+          to: "me",
+          label: "Sobre mim",
+          position: "left",
+        },
+        {
           href: "https://github.com/megatroom/bruno-nardini",
           label: "GitHub",
           position: "right",
@@ -85,6 +90,10 @@ module.exports = {
             {
               label: "Publicações no Medium",
               to: "medium",
+            },
+            {
+              label: "Sobre mim",
+              to: "me",
             },
           ],
         },
