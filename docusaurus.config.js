@@ -1,3 +1,7 @@
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+
+/** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Bruno Nardini",
   tagline: "",
@@ -88,8 +92,8 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Bruno Nardini.`,
     },
     prism: {
-      theme: require("prism-react-renderer/themes/github"),
-      darkTheme: require("prism-react-renderer/themes/dracula"),
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
     },
   },
   presets: [
@@ -99,12 +103,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/megatroom/bruno-nardini/edit/master/website/",
+            "https://github.com/megatroom/bruno-nardini/edit/main/website/",
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            "https://github.com/megatroom/bruno-nardini/edit/master/website/blog/",
+            "https://github.com/megatroom/bruno-nardini/edit/main/website/blog/",
           feedOptions: {
             type: "all",
             copyright: `Copyright © ${new Date().getFullYear()} Bruno Nardini.`,
