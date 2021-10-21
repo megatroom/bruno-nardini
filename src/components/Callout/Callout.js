@@ -5,7 +5,7 @@ import styles from "./Callout.module.css";
 
 export default function Callout() {
   return (
-    <section>
+    <section id="section-nardini-academy">
       <div className={styles.callout}>
         <div className={styles.media}>
           <img
