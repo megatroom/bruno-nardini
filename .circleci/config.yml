@@ -7,4 +7,7 @@ workflows:
   build:
     jobs:
       - cypress/run:
+          store_artifacts: true
           yarn: true
+          start: yarn start
+          wait-on: "http://localhost:3000"
