@@ -18,6 +18,10 @@ export default function Medium() {
       <div className="container margin-vert--lg">
         <main>
           <h1>Publicações no Medium</h1>
+          <p>
+            Os posts que faço no Medium são publicações por empresas da qual
+            trabalhei ou trabalho.
+          </p>
           <br />
           <div className="row">
             {mediumPublications.map((pub) => (
