@@ -10,4 +10,5 @@ workflows:
           store_artifacts: true
           yarn: true
           start: yarn start
+          executor: cypress/base-14
           wait-on: "http://localhost:3000"
