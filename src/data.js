@@ -109,6 +109,34 @@ export const mediumPublications = [
   {
     id: lazyId(),
     title:
+      "Atomic Design na prática com React em um projeto real da RD Station",
+    imageUrl: "/img/medium/rdstation-marketing-dashboard.png",
+    link: "https://medium.com/rd-shipit/atomic-design-na-pr%C3%A1tica-com-react-em-um-projeto-real-da-rd-station-ed6a94bcaa4c",
+    external: true,
+    summary: (
+      <>
+        Um caso real onde utilizamos o modelo mental do Atomic Design para
+        construir componentes React.
+      </>
+    ),
+  },
+  {
+    id: lazyId(),
+    title:
+      "Como criar componentes React com uma arquitetura escalável usando Atomic Design",
+    imageUrl: "/img/medium/lego-4.png",
+    link: "https://medium.com/rd-shipit/como-criar-componentes-react-com-uma-arquitetura-escal%C3%A1vel-usando-atomic-design-74a67aaf47e0",
+    external: true,
+    summary: (
+      <>
+        Como podemos utilizar o Atomic Design para administrar a complexidade,
+        favorecendo a legibilidade, escalabilidade e flexibilidade do código.
+      </>
+    ),
+  },
+  {
+    id: lazyId(),
+    title:
       "Benefícios de utilizar Outcomes para definição de domínios do negócio (DDD) e como adaptamos essa prática na RD Station",
     imageUrl: "/img/medium/pexels-ketut-subiyanto-4623355.jpg",
     link: "https://medium.com/rd-shipit/benef%C3%ADcios-de-utilizar-outcomes-para-defini%C3%A7%C3%A3o-de-dom%C3%ADnios-do-neg%C3%B3cio-ddd-como-a-adaptamos-aqui-8290f7d871fd",
