@@ -13,6 +13,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:wait": "wait-on http://localhost:3000",
     "format:check": "prettier --check .",
     "type:check": "tsc"
   },
@@ -47,6 +49,7 @@
     "@docusaurus/tsconfig": "3.5.2",
     "@docusaurus/types": "3.5.2",
     "cypress": "^13.14.1",
-    "typescript": "~5.5.2"
+    "typescript": "~5.5.2",
+    "wait-on": "^8.0.0"
   }
 }

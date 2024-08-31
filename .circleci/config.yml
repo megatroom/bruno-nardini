@@ -3,11 +3,48 @@ version: 2.1
 orbs:
   cypress: cypress-io/cypress@3.3.1
 
-workflows:
-  build:
-    jobs:
+aliases:
+  - &docker_image
+    - image: cimg/node:20.17.0-browsers
+
+  - &current_workspace
+    attach_workspace: { at: '.' }
+
+jobs:
+  install-dependencies:
+    docker: *docker_image
+    steps:
+      - checkout
+      - run: node --version
+      - run: npm ci
+      - persist_to_workspace:
+          root: '.'
+          paths:
+            - 'node_modules/*'
+
+  check-typescript:
+    docker: *docker_image
+    steps:
+      - checkout
+      - *current_workspace
+      - run: npm run type:check
+
+  test-e2e:
+    executor: cypress/default
+    steps:
+      - checkout
+      - *current_workspace
       - cypress/run:
-          store_artifacts: true
-          start: npm start
-          executor: cypress/default
-          wait-on: 'http://localhost:3000'
+          cypress-command: npm run cypress:wait && npm run cypress:run
+          start-command: npm start
+
+workflows:
+  test_my_app:
+    jobs:
+      - install-dependencies
+      - check-typescript:
+          requires:
+            - install-dependencies
+      - test-e2e:
+          requires:
+            - install-dependencies
