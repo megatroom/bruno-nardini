@@ -9,6 +9,6 @@ workflows:
       - cypress/run:
           store_artifacts: true
           yarn: true
-          start: yarn start
+          start: npm start
           executor: cypress/base-14
-          wait-on: "http://localhost:3000"
+          wait-on: 'http://localhost:3000'
