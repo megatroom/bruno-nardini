@@ -18,13 +18,13 @@ Ela é uma redução do 5W2H, usando apenas os três itens mais importantes: que
 
 :::note Estrutura
 
-“Com o propósito de <porque: valor de negócio ou razão>, como um <quem: papel>, eu gostaria/deveria <o quê: função ou ação>.”
+“Com o propósito de `<porque: valor de negócio ou razão>`, como um `<quem: papel>`, eu gostaria/deveria `<o quê: função ou ação>`.”
 
 :::
 
 :::note Estrutura
 
-“Eu, enquanto <quem: papel>, quero <o quê: objetivo> para <porque: valor de negócio ou razão>.”
+“Eu, enquanto `<quem: papel>`, quero `<o quê: objetivo>` para `<porque: valor de negócio ou razão>`.”
 
 :::
 
