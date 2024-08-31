@@ -29,22 +29,15 @@ jobs:
       - *current_workspace
       - run: npm run type:check
 
+workflows:
   test-e2e:
-    executor: cypress/default
-    steps:
-      - checkout
-      - *current_workspace
+    jobs:
       - cypress/run:
           cypress-command: npm run cypress:wait && npm run cypress:run
           start-command: npm start
-
-workflows:
-  test_my_app:
+  validations:
     jobs:
       - install-dependencies
       - check-typescript:
           requires:
-            - install-dependencies
-      - test-e2e:
-          requires:
-            - install-dependencies
+            - install-dependencies      
