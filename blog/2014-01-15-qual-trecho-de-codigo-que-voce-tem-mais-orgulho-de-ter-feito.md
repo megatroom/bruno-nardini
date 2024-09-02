@@ -2,7 +2,7 @@
 slug: qual-trecho-de-codigo-que-voce-tem-mais-orgulho-de-ter-feito
 title: Qual trecho de código que você tem mais orgulho de ter feito?
 description: Qual trecho de código que você tem mais orgulho de ter feito?
-tags: [Carreira]
+tags: [career]
 ---
 
 Como você reagiria a uma entrevista em que você não precisa levar currículo, mas que levasse um trecho de código que você tenha orgulho de ter feito?

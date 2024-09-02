@@ -2,7 +2,7 @@
 slug: a-diferenca-entre-o-foco-no-problema-e-o-foco-na-solucao
 title: A diferença entre o foco no problema e o foco na solução
 description: A diferença entre o foco no problema e o foco na solução
-tags: [Empreendedorismo, Gestão de Pessoas, Gestão de Processos, Gestão de Projetos]
+tags: [entrepreneurship, agile]
 ---
 
 Para resolver um problema é preciso saber onde focar para obter melhores soluções. Quando se foca no problema, você pode achar uma solução, mas esta solução pode gerar novos problemas, mantendo este foco, pode acabar criando uma cascata infinita de problemas. Ao focar na solução do problema, você pode resolver o problema sem efeitos colaterais e ficar livre para dar atenção ao que interessa.
@@ -16,7 +16,7 @@ Neste artigo demonstrarei alguns exemplos de ambos os focos de forma prática e 
 Vamos analisar uma pequena história sobre os diferentes focos:
 
 > “Os astronautas, tanto os americanos quanto os russos, perceberam que não era possível escrever com uma caneta comum no espaço, pois a tinta não saia da caneta devido à falta de gravidade. A Nasa, com toda sua tecnologia e profissionais qualificados, investiram muito dinheiro em pesquisas e conseguiram inventar uma caneta que escrevia mesmo em gravidade zero, os astronautas americanos ficaram orgulhosos e usaram sua nova tecnologia no espaço. A agência espacial russa simplesmente passou a usar um lápis.”
-> 
+>
 > Lendas urbanas – contos de administração.
 
 Note que ambos os grupos de profissionais estavam com o mesmo problema: não era possível escrever de caneta no espaço.
