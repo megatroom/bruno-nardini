@@ -48,3 +48,6 @@ workflows:
       - check-typescript:
           requires:
             - install-dependencies
+      - check-format:
+          requires:
+            - install-dependencies
