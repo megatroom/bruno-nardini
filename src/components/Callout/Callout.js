@@ -1,7 +1,7 @@
-import React from "react";
-import Link from "@docusaurus/Link";
+import React from 'react';
+import Link from '@docusaurus/Link';
 
-import styles from "./Callout.module.css";
+import styles from './Callout.module.css';
 
 export default function Callout() {
   return (

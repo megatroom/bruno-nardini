@@ -1,8 +1,8 @@
-import React from "react";
-import Link from "@docusaurus/Link";
-import useBaseUrl from "@docusaurus/useBaseUrl";
+import React from 'react';
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-import styles from "./PostCardList.module.css";
+import styles from './PostCardList.module.css';
 
 export default function PostCardList({ keyPrefix, posts }) {
   return (

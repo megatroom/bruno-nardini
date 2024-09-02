@@ -9,11 +9,11 @@ tags: [entrepreneurship, business-management]
 
 **Empresa** é o navio onde os navegantes estão.
 
-**Políticas** são as velas que levam o  navio ao seu destino.
+**Políticas** são as velas que levam o navio ao seu destino.
 
 **Visão** é o destino do navio, onde se quer chegar, seu objetivo.
 
-**Missão** é o  caminho que o navio irá percorrer até chegar ao seu destino.
+**Missão** é o caminho que o navio irá percorrer até chegar ao seu destino.
 
 **Valores** são os limites que o navio pode ir para não se desviar do seu caminho e poder atingir seu destino.
 

@@ -99,4 +99,3 @@ Configurações do ambiente:
 Você pode deixar isso como configuração pessoal ou você pode colocar como configuração do projeto no arquivo `.vscode/settings.json` na raiz do seu projeto.
 
 Eu separei minha [lista de snippets em outro post](./meu-vs-code-snippets).
-

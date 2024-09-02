@@ -39,12 +39,13 @@ Não chega a ser um problema grave esse "bico de pato", mas com certeza não é 
 Se o prolema for somente o design do código, podemos refatorar o código usando uma função para compor os providers:
 
 ```jsx
-const composeProviders = (...providers) => props =>
-  providers.reduceRight(
-    (children, Provider) =>
-      <Provider {...props}>{children}</Provider>,
-    props.children,
-  );
+const composeProviders =
+  (...providers) =>
+  (props) =>
+    providers.reduceRight(
+      (children, Provider) => <Provider {...props}>{children}</Provider>,
+      props.children,
+    );
 
 export const AllProviders = composeProviders(
   ThemeProvider,
@@ -73,7 +74,7 @@ function App() {
 Se quiser passar alguma propriedade para todos os providers, você pode passá-lo como propriedade do `AllProviders`:
 
 ```jsx
-<AllProviders env="dev" baseUrl="/" >
+<AllProviders env="dev" baseUrl="/">
   {/* ... */}
 </AllProviders>
 ```

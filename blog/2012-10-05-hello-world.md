@@ -14,7 +14,7 @@ Estarei publicando conteúdos neste blog sobre todo o universo de desenvolviment
 
 ## Vivenciando as Mudanças
 
-Segundo [Michael Swaine](http://pragprog.com/magazines/2012-02/up-front), a mudança é inerente a esta carreira que escolhemos. Se você é um desenvolvedor, única opção que você tem é de abraçar a mudança, você está no negócio de fazer mudanças. Isso significa que você irá passar a maior parte do tempo aprendendo, se sentindo como um *newbie* em uma situação pouco familiar.
+Segundo [Michael Swaine](http://pragprog.com/magazines/2012-02/up-front), a mudança é inerente a esta carreira que escolhemos. Se você é um desenvolvedor, única opção que você tem é de abraçar a mudança, você está no negócio de fazer mudanças. Isso significa que você irá passar a maior parte do tempo aprendendo, se sentindo como um _newbie_ em uma situação pouco familiar.
 
 E é fácil perceber o quanto nossa área muda tão rápido pela diversidade de novidades que vão surgindo, tanto em software quanto em hardware.
 
@@ -22,7 +22,7 @@ Essa constante mudança é o que cria a necessidade do profissional da Tecnologi
 
 ## Conteúdo dinâmico
 
-Para que o blog tenha uma boa interatividade, o conteúdo é classificado por suas mídias: imagens, áudio  texto, etc. Desta forma o conteúdo será mais dinâmico e a troca de experiência será melhor aproveitada.
+Para que o blog tenha uma boa interatividade, o conteúdo é classificado por suas mídias: imagens, áudio texto, etc. Desta forma o conteúdo será mais dinâmico e a troca de experiência será melhor aproveitada.
 
 As vezes os meus estudos já consome todo meu tempo, e a criação de um texto muito longo seria inviável. Porém, poderia postar um vídeo relacionado com o assunto, uma citação, e estaria compartilhando um conhecimento novo de forma mais prática e sem sacrifícios. Assim ambos ganharemos, você que poderá conhecer algo novo e eu que estarei recebendo comentários com idéias novas sobre o assunto. Já com tempo disponível, poderei postar textos com conteúdo próprio.
 

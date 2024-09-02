@@ -11,7 +11,7 @@ describe('Home page', () => {
   it('should render Nardini Academy section', () => {
     cy.get('#section-nardini-academy h2').should(
       'have.text',
-      'React Profissional'
+      'React Profissional',
     );
   });
 });

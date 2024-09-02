@@ -13,7 +13,7 @@ Neste artigo irei abordar este padrão utilizando a linguagem Java como exemplo.
 
 ## O que é imutabilidade?
 
-A **imutabilidade** é a característica de um objeto permanecer o mesmo sempre, ou seja, nunca mudar. Um exemplo de imutabilidade é a classe *String* do Java. Veja um exemplo:
+A **imutabilidade** é a característica de um objeto permanecer o mesmo sempre, ou seja, nunca mudar. Um exemplo de imutabilidade é a classe _String_ do Java. Veja um exemplo:
 
 ```java
 String nome = "Bruno Nardini";
@@ -21,7 +21,7 @@ nome.toUpperCase();
 System.out.println(nome);
 ```
 
-Este código, que aparece com frequência em provas de certificação Java, irá imprimir o valor nome da mesma forma que foi definida na primeira linha. Isso acontece porque todo método da classe *String*  sempre devolve uma nova instância com a alteração requisitada, mas nunca altera a instância original.
+Este código, que aparece com frequência em provas de certificação Java, irá imprimir o valor nome da mesma forma que foi definida na primeira linha. Isso acontece porque todo método da classe _String_ sempre devolve uma nova instância com a alteração requisitada, mas nunca altera a instância original.
 
 O mesmo já não acontece com a classe Calendar, que é uma classe mutável. Vamos analisar o exemplo abaixo:
 
@@ -50,7 +50,7 @@ String valor = "Imutabilidade rocks!";
 String resultado = valor.toUpperCase().trim().substring(13);
 ```
 
-Encadear invocações de métodos (method chaining)  só é viável em um objeto imutável, pois só assim é garantido que cada método irá devolver a instância de um novo objeto, não possuindo efeito colateral.
+Encadear invocações de métodos (method chaining) só é viável em um objeto imutável, pois só assim é garantido que cada método irá devolver a instância de um novo objeto, não possuindo efeito colateral.
 
 Method chaining é uma prática simples que permite a criação de interfaces fluentes (fluent interfaces) que permite a criação de DSLs.
 
@@ -68,4 +68,3 @@ Para se criar uma classe imutável, ela precisa atender as seguintes caracterís
 Foi demonstrado as vantagens de criar uma classe como imutável e suas particularidades. Muitos desenvolvedores já trabalham com classes imutáveis (de terceiros) e entendem seu funcionamento, mas não nunca pararam para analisar que isto é um padrão e que deveria ser fortemente usado em seus projetos.
 
 Este texto foi adaptado do livro Introdução à arquitetura e design de software, além de várias pesquisas em sites da área.
-
