@@ -16,6 +16,7 @@ Vou resumir algumas palestras que achei interessante. Não dava para assistir to
 Na foto estou com uma segunda mochila na mão, e dentro dela um fone de ouvido, que ganhei por ser o primeiro a participar com uma pergunta na Mesa Redonda. 😁
 
 ## Node.js: serious business
+
 por **Pedro Franceschi**
 
 Pedro Franceschi, CEO da startup Pagar.Me, compartilhou a experiência em utilizar o Node.js como back-end para lidar com as transações financeiras do seu serviço. Mostrou tanto o lado positivo, como seu próprio case de sucesso, quanto o lado negativo, que foram as dificuldades que ele teve durante o processo de implementação.
@@ -27,6 +28,7 @@ Link para apresentação: http://www.slideshare.net/PedroFranceschi/palestra-nod
 Vídeo da Palestra: http://youtu.be/_0opytdAXHk
 
 ## Construindo aplicações com Zero LoadTime
+
 por **João M. D. Moura**
 
 Apesar de rápida, foi uma apresentação excelente. João Moura demonstra a importância de um site ter um carregamento rápido, e o impacto que isso causa no negócio, demonstrando alguns cases.
@@ -40,11 +42,12 @@ Twitter do palestrante: https://twitter.com/joaomdmoura
 Vídeo da Palestra: http://youtu.be/y1o_oGWI66k
 
 ## Segurança no Rails
+
 por **Nando Vieira**
 
 Apesar do foco no Rails, a apresentação foi bem ampla e aplicável para qualquer web back-end framework. Nando Vieira levantou questões importante de segurança, que apesar do framework facilitar muito a vida do programador neste quesito, falhas de programação pode comprometer toda aplicação e até mesmo o servidor.
 
-Uma questão importante também levantada foi ter um SysAdmin responsável para configuração do servidor, para evitar que um profissional  inexperiente deixe alguma falha de segurança.  Sabemos muito bem que nem sempre é assim, que muitos programadores sem conhecimento em servidor quebra o galho só para evitar custos, mas não será que o barato mais um vez não sai caro? O palestrante demonstrou como é possível invadir um servidor mal configurado, e uma vez dentro do servidor, todo estrago é pouco.
+Uma questão importante também levantada foi ter um SysAdmin responsável para configuração do servidor, para evitar que um profissional inexperiente deixe alguma falha de segurança. Sabemos muito bem que nem sempre é assim, que muitos programadores sem conhecimento em servidor quebra o galho só para evitar custos, mas não será que o barato mais um vez não sai caro? O palestrante demonstrou como é possível invadir um servidor mal configurado, e uma vez dentro do servidor, todo estrago é pouco.
 
 Atualmente eu trabalho com segurança, então é uma questão que já me acostumei a pensar antes de qualquer coisa, mas acredito que é uma questão que vale ser fortemente considerada por qualquer profissional da área de TI em qualquer área do desenvolvimento e manutenção de um produto, pois as consequências podem ser maiores do que você pode imaginar.
 
@@ -53,6 +56,7 @@ Site do palestrante: http://nandovieira.com/
 Vídeo da Palestra: http://youtu.be/GPglTMw-2Hw
 
 ## Lifestyle Business e o Ecossistema Python
+
 por **Henrique Bastos**
 
 Nada lembro do Ecossistema Python, mas não me sai da cabeça tudo que o Henrique Bastos falou sobre o Lifestyle Business. Mais do que uma discussão sobre carreira e negócios, Lifestyle Business é um estilo de carreira que visa a qualidade não só da carreira, mas também da qualidade de vida. Ele contou um pouco sobre sua carreira, os sucessos e dificuldades de um negócio próprio com funcionários, como isso o levou a decisão de trabalhar como freelancer, entre outras histórias. Eu não vou conseguir colocar toda a essência da apresentação em palavras, pois muitos pensamentos meus e das pessoas que estavam presente se misturaram, várias pessoas participaram com depoimentos e perguntas, que tornou o clima bem agradável, além do ótimo bom humor do palestrante.
@@ -66,6 +70,7 @@ Site do palestrante: http://henriquebastos.net/
 Vídeo da Palestra: http://youtu.be/mHRinieklio
 
 ## Tendências de hoje e amanhã no mundo ruby
+
 por **Fabio Akita**
 
 Fechando com chave de ouro, Fabio Akita faz o keynote final do evento falando sobre a história do ruby, que este ano completa 10 anos. Ele fala um pouco sobre a Cauda Longa, como a limitação gera inovação, como é importante uma comunidade não se granular, entre outros assuntos sobre a evolução da tecnologia.

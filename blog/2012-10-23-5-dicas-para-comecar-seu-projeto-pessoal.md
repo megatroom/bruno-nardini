@@ -15,7 +15,7 @@ Neste artigo apresento 5 dicas importantes que irão lhe ajudar a começar seu p
 
 Há uma grande diferença entre planejar e ficar viajando nas ideias. Se você está pensando sem um lápis ou teclado na mão, fica difícil chegar a algum lugar. Toda grande obra se começa através de um rascunho, de um esboço, nunca sai pronto da cabeça para a produção final.
 
-<img src="/img/ideas.gif" align="right" /> Primeiro, escolha seu material de rascunho. Para alguns projetos eu gosto de usar papel e caneta, para outros me agrada o computador, faça onde lhe deixar mais confortável.  Em seguida comece a jogar as ideias, sejam elas boas ou ruins, e continue até sair algo que você goste. Não se preocupe em fazer algo limpo, faça setas, desenhos, rabiscos, qualquer coisa que precisar para transcrever o que está pensando, seja em desenho, texto ou diagramas.
+<img src="/img/ideas.gif" align="right" /> Primeiro, escolha seu material de rascunho. Para alguns projetos eu gosto de usar papel e caneta, para outros me agrada o computador, faça onde lhe deixar mais confortável. Em seguida comece a jogar as ideias, sejam elas boas ou ruins, e continue até sair algo que você goste. Não se preocupe em fazer algo limpo, faça setas, desenhos, rabiscos, qualquer coisa que precisar para transcrever o que está pensando, seja em desenho, texto ou diagramas.
 
 Esse exercício vai lhe ajudar a documentar a ideia e ira liberar o bloqueio criativo que venha a ter. Essa técnica foi muito usada por escritores conceituados e tem funcionado para todas as áreas quem vem sido aplicada.
 
@@ -31,7 +31,7 @@ Tudo que fazemos possui um investimento, nem que a única coisa que você invist
 
 Você pode investir no ambiente de trabalho. Por exemplo, se você trabalha sentado em frente ao computador, você pode comprar uma cadeira confortável ou um teclado mais novo. Isso vai te deixar mais confortável e disposto para passar esse tempo em seus projetos.
 
-Há o investimento também no próprio projeto, onde você compra algo já pronto, em vez de perder tempo em refazer a roda.  Ou algo que você não tenha jeito para fazer, mas você paga um profissional da área para que fique do jeito certo e com qualidade. Até mesmo para pagar uma publicidade para seu serviço ou produto alcançar maior número de clientes.
+Há o investimento também no próprio projeto, onde você compra algo já pronto, em vez de perder tempo em refazer a roda. Ou algo que você não tenha jeito para fazer, mas você paga um profissional da área para que fique do jeito certo e com qualidade. Até mesmo para pagar uma publicidade para seu serviço ou produto alcançar maior número de clientes.
 
 Quanto maior o investimento, mas rápido será o retorno financeiro. Com o retorno do dinheiro vindo do projeto, não esqueça de reservar pelo menos 50% desta renda para reinvestir no próprio projeto.
 

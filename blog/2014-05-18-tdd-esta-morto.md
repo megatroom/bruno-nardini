@@ -29,7 +29,7 @@ Por definição, o teste de unidade não pode fazer integração, isso inclui in
 
 Então vários problemas começam a surgir com esse acoplamento:
 
-- Alguns começaram a fazer testes utilizando um banco de dados de teste, mas continuaram  chamando de teste de unidade, o que contradiz o conceito.
+- Alguns começaram a fazer testes utilizando um banco de dados de teste, mas continuaram chamando de teste de unidade, o que contradiz o conceito.
 
 - Outros além do teste citado acima, fazia TDD. Se TDD é feito com teste de unidade, então cai no mesmo problema da utilização do banco de dados.
 

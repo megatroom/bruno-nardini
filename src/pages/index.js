@@ -1,22 +1,22 @@
-import React from "react";
-import clsx from "clsx";
-import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import { ImRss } from "react-icons/im";
-import { FaBookReader } from "react-icons/fa";
+import React from 'react';
+import clsx from 'clsx';
+import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { ImRss } from 'react-icons/im';
+import { FaBookReader } from 'react-icons/fa';
 
-import styles from "./styles.module.css";
-import Post from "../components/Post/Post";
-import PostCardList from "../components/PostCardList/PostCardList";
-import Callout from "../components/Callout/Callout";
+import styles from './styles.module.css';
+import Post from '../components/Post/Post';
+import PostCardList from '../components/PostCardList/PostCardList';
+import Callout from '../components/Callout/Callout';
 
 import {
   featurePosts,
   mostPopularPosts,
   featureMediumPublications,
-} from "../data";
+} from '../data';
 
 function Home() {
   const context = useDocusaurusContext();
@@ -43,10 +43,10 @@ function Home() {
                   <div className={styles.topicFooter}>
                     <Link
                       className={clsx(
-                        "button button--outline button--secondary",
-                        styles.topicButton
+                        'button button--outline button--secondary',
+                        styles.topicButton,
                       )}
-                      href={useBaseUrl("blog/rss.xml")}
+                      href={useBaseUrl('blog/rss.xml')}
                       target="_blank"
                       rel="noopener"
                     >
@@ -55,10 +55,10 @@ function Home() {
                     </Link>
                     <Link
                       className={clsx(
-                        "button button--outline button--secondary",
-                        styles.topicButton
+                        'button button--outline button--secondary',
+                        styles.topicButton,
                       )}
-                      href={useBaseUrl("blog")}
+                      href={useBaseUrl('blog')}
                     >
                       <FaBookReader className={styles.topicButtonIcon} />
                       Todos os posts
@@ -71,7 +71,7 @@ function Home() {
               {featurePosts.map((post, index) => (
                 <div
                   key={`post-${post.id}`}
-                  className={clsx("col", index == 0 ? "col--6" : "col--3")}
+                  className={clsx('col', index == 0 ? 'col--6' : 'col--3')}
                 >
                   <Post {...post} />
                 </div>
@@ -99,7 +99,7 @@ function Home() {
               {featureMediumPublications.map((publication, index) => (
                 <div
                   key={`publication-${publication.id}`}
-                  className={clsx("col", index == 0 ? "col--6" : "col--3")}
+                  className={clsx('col', index == 0 ? 'col--6' : 'col--3')}
                 >
                   <Post {...publication} />
                 </div>

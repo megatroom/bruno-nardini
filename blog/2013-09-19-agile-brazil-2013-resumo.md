@@ -27,4 +27,3 @@ Resumo das palestras que assisti no Agile Brazil 2013:
 />
 
 [Agile Brazil 2013](https://www.slideshare.net/megatroom/agile-brazil-2013-resumo) – Resumo from **Bruno Nardini**
-

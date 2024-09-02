@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 let generatorId = 0;
 function lazyId() {
@@ -9,9 +9,9 @@ function lazyId() {
 export const featurePosts = [
   {
     id: lazyId(),
-    title: "Como resolver o encadeamento de providers no React",
-    imageUrl: "img/hadouken.jpg",
-    link: "/blog/compose-providers",
+    title: 'Como resolver o encadeamento de providers no React',
+    imageUrl: 'img/hadouken.jpg',
+    link: '/blog/compose-providers',
     summary: (
       <>
         Uma solução alternativa ao Provider Hell para projetos React com muito
@@ -21,9 +21,9 @@ export const featurePosts = [
   },
   {
     id: lazyId(),
-    title: "Padrão de projetos para Rotas",
-    imageUrl: "img/routes.jpg",
-    link: "/blog/padrao-de-projetos-para-rotas",
+    title: 'Padrão de projetos para Rotas',
+    imageUrl: 'img/routes.jpg',
+    link: '/blog/padrao-de-projetos-para-rotas',
     summary: (
       <>
         Criar rotas é uma tarefa bem simples, a maioria dos frameworks já dão
@@ -36,16 +36,16 @@ export const featurePosts = [
   },
   {
     id: lazyId(),
-    title: "Tudo que você queria saber sobre Trabalho Remoto",
-    imageUrl: "img/trabalho_remoto.jpg",
-    link: "/blog/tudo-que-voce-queria-saber-sobre-trabalho-remoto",
+    title: 'Tudo que você queria saber sobre Trabalho Remoto',
+    imageUrl: 'img/trabalho_remoto.jpg',
+    link: '/blog/tudo-que-voce-queria-saber-sobre-trabalho-remoto',
     summary: <>Minha palestra no Rio Sul Valley Dev Summit 2017.</>,
   },
   {
     id: lazyId(),
-    title: "Notificações, Toast, React e Redux",
-    imageUrl: "img/blue_bg_react.png",
-    link: "/blog/notificacoes-toast-react-e-redux",
+    title: 'Notificações, Toast, React e Redux',
+    imageUrl: 'img/blue_bg_react.png',
+    link: '/blog/notificacoes-toast-react-e-redux',
     summary: (
       <>
         A missão era simples: enviar uma mensagem não bloqueante de sucesso ou
@@ -56,9 +56,9 @@ export const featurePosts = [
   },
   {
     id: lazyId(),
-    title: "Meu VS Code snippets",
-    imageUrl: "img/shortcut.jpg",
-    link: "/blog/meu-vs-code-snippets",
+    title: 'Meu VS Code snippets',
+    imageUrl: 'img/shortcut.jpg',
+    link: '/blog/meu-vs-code-snippets',
     summary: (
       <>
         Code snippets são blocos de códigos dinâmicos e reutilizáveis. Você pode
@@ -69,9 +69,9 @@ export const featurePosts = [
   },
   {
     id: lazyId(),
-    title: "Dominando o VS Code",
-    imageUrl: "img/vscode-bg.png",
-    link: "/blog/dominando-o-vs-code",
+    title: 'Dominando o VS Code',
+    imageUrl: 'img/vscode-bg.png',
+    link: '/blog/dominando-o-vs-code',
     summary: (
       <>
         Já tem alguns anos que adotei o Visual Studio Code como minha IDE
@@ -85,23 +85,23 @@ export const featurePosts = [
 export const mostPopularPosts = [
   {
     id: lazyId(),
-    title: "Como escrever uma user story matadora",
-    link: "/blog/como-escrever-uma-user-story-matadora",
+    title: 'Como escrever uma user story matadora',
+    link: '/blog/como-escrever-uma-user-story-matadora',
   },
   {
     id: lazyId(),
-    title: "A diferença entre o foco no problema e o foco na solução",
-    link: "/blog/a-diferenca-entre-o-foco-no-problema-e-o-foco-na-solucao",
+    title: 'A diferença entre o foco no problema e o foco na solução',
+    link: '/blog/a-diferenca-entre-o-foco-no-problema-e-o-foco-na-solucao',
   },
   {
     id: lazyId(),
-    title: "Notificações, Toast, React e Redux",
-    link: "/blog/notificacoes-toast-react-e-redux",
+    title: 'Notificações, Toast, React e Redux',
+    link: '/blog/notificacoes-toast-react-e-redux',
   },
   {
     id: lazyId(),
-    title: "Dominando o VS Code",
-    link: "/blog/dominando-o-vs-code",
+    title: 'Dominando o VS Code',
+    link: '/blog/dominando-o-vs-code',
   },
 ];
 
@@ -109,9 +109,9 @@ export const mediumPublications = [
   {
     id: lazyId(),
     title:
-      "Atomic Design na prática com React em um projeto real da RD Station",
-    imageUrl: "/img/medium/rdstation-marketing-dashboard.png",
-    link: "https://medium.com/rd-shipit/atomic-design-na-pr%C3%A1tica-com-react-em-um-projeto-real-da-rd-station-ed6a94bcaa4c",
+      'Atomic Design na prática com React em um projeto real da RD Station',
+    imageUrl: '/img/medium/rdstation-marketing-dashboard.png',
+    link: 'https://medium.com/rd-shipit/atomic-design-na-pr%C3%A1tica-com-react-em-um-projeto-real-da-rd-station-ed6a94bcaa4c',
     external: true,
     summary: (
       <>
@@ -123,9 +123,9 @@ export const mediumPublications = [
   {
     id: lazyId(),
     title:
-      "Como criar componentes React com uma arquitetura escalável usando Atomic Design",
-    imageUrl: "/img/medium/lego-4.png",
-    link: "https://medium.com/rd-shipit/como-criar-componentes-react-com-uma-arquitetura-escal%C3%A1vel-usando-atomic-design-74a67aaf47e0",
+      'Como criar componentes React com uma arquitetura escalável usando Atomic Design',
+    imageUrl: '/img/medium/lego-4.png',
+    link: 'https://medium.com/rd-shipit/como-criar-componentes-react-com-uma-arquitetura-escal%C3%A1vel-usando-atomic-design-74a67aaf47e0',
     external: true,
     summary: (
       <>
@@ -137,9 +137,9 @@ export const mediumPublications = [
   {
     id: lazyId(),
     title:
-      "Benefícios de utilizar Outcomes para definição de domínios do negócio (DDD) e como adaptamos essa prática na RD Station",
-    imageUrl: "/img/medium/pexels-ketut-subiyanto-4623355.jpg",
-    link: "https://medium.com/rd-shipit/benef%C3%ADcios-de-utilizar-outcomes-para-defini%C3%A7%C3%A3o-de-dom%C3%ADnios-do-neg%C3%B3cio-ddd-como-a-adaptamos-aqui-8290f7d871fd",
+      'Benefícios de utilizar Outcomes para definição de domínios do negócio (DDD) e como adaptamos essa prática na RD Station',
+    imageUrl: '/img/medium/pexels-ketut-subiyanto-4623355.jpg',
+    link: 'https://medium.com/rd-shipit/benef%C3%ADcios-de-utilizar-outcomes-para-defini%C3%A7%C3%A3o-de-dom%C3%ADnios-do-neg%C3%B3cio-ddd-como-a-adaptamos-aqui-8290f7d871fd',
     external: true,
     summary: (
       <>
@@ -153,9 +153,9 @@ export const mediumPublications = [
   {
     id: lazyId(),
     title:
-      "Descoberta dos domínios (DDD) do RD Station Marketing através do EventStorming",
-    imageUrl: "/img/medium/1_n_jaMZKT0-osbU9Wqbt78g.png",
-    link: "https://medium.com/rd-shipit/descoberta-dos-dom%C3%ADnios-ddd-do-rd-station-marketing-atrav%C3%A9s-do-eventstorming-5c4743d5b7ea",
+      'Descoberta dos domínios (DDD) do RD Station Marketing através do EventStorming',
+    imageUrl: '/img/medium/1_n_jaMZKT0-osbU9Wqbt78g.png',
+    link: 'https://medium.com/rd-shipit/descoberta-dos-dom%C3%ADnios-ddd-do-rd-station-marketing-atrav%C3%A9s-do-eventstorming-5c4743d5b7ea',
     external: true,
     summary: (
       <>
@@ -168,9 +168,9 @@ export const mediumPublications = [
   {
     id: lazyId(),
     title:
-      "React Hooks: por que devemos colocar funções no array de dependências do useEffecs?",
-    imageUrl: "/img/medium/1_r0KEQBZMMEoVmPCVP8IHjw.jpeg",
-    link: "https://medium.com/rd-shipit/react-hooks-por-que-devemos-colocar-fun%C3%A7%C3%B5es-no-array-de-depend%C3%AAncias-do-useeffecs-6ba483c57ae",
+      'React Hooks: por que devemos colocar funções no array de dependências do useEffecs?',
+    imageUrl: '/img/medium/1_r0KEQBZMMEoVmPCVP8IHjw.jpeg',
+    link: 'https://medium.com/rd-shipit/react-hooks-por-que-devemos-colocar-fun%C3%A7%C3%B5es-no-array-de-depend%C3%AAncias-do-useeffecs-6ba483c57ae',
     external: true,
     summary: (
       <>
@@ -182,9 +182,9 @@ export const mediumPublications = [
   },
   {
     id: lazyId(),
-    title: "O que podemos esperar das novas versões do JavaScript",
-    imageUrl: "/img/medium/1_U1L62mnxHs2hzDhH3lDoMg.jpeg",
-    link: "https://medium.com/rd-shipit/o-que-podemos-esperar-das-novas-vers%C3%B5es-do-javascript-2dce4f576b9e",
+    title: 'O que podemos esperar das novas versões do JavaScript',
+    imageUrl: '/img/medium/1_U1L62mnxHs2hzDhH3lDoMg.jpeg',
+    link: 'https://medium.com/rd-shipit/o-que-podemos-esperar-das-novas-vers%C3%B5es-do-javascript-2dce4f576b9e',
     external: true,
     summary: (
       <>
@@ -196,9 +196,9 @@ export const mediumPublications = [
   },
   {
     id: lazyId(),
-    title: "Como o Open Source mudou minha carreira e me fez entrar na Matrix",
-    imageUrl: "/img/medium/1_94-Q3eLEBo8gc1WmsEQBjw.jpeg",
-    link: "https://medium.com/rd-shipit/como-o-open-source-mudou-minha-carreira-e-me-fez-entrar-na-matrix-d3bcd41e797",
+    title: 'Como o Open Source mudou minha carreira e me fez entrar na Matrix',
+    imageUrl: '/img/medium/1_94-Q3eLEBo8gc1WmsEQBjw.jpeg',
+    link: 'https://medium.com/rd-shipit/como-o-open-source-mudou-minha-carreira-e-me-fez-entrar-na-matrix-d3bcd41e797',
     external: true,
     summary: (
       <>
@@ -210,9 +210,9 @@ export const mediumPublications = [
   },
   {
     id: lazyId(),
-    title: "Refatorando código legado em projetos React — Parte V",
-    imageUrl: "/img/medium/1_DH1WAfrSGFbYKoBv8rjnfw.jpeg",
-    link: "https://medium.com/@megatroom/refatorando-c%C3%B3digo-legado-em-projetos-react-parte-v-15f20243d826",
+    title: 'Refatorando código legado em projetos React — Parte V',
+    imageUrl: '/img/medium/1_DH1WAfrSGFbYKoBv8rjnfw.jpeg',
+    link: 'https://medium.com/@megatroom/refatorando-c%C3%B3digo-legado-em-projetos-react-parte-v-15f20243d826',
     external: true,
     summary: (
       <>
@@ -224,9 +224,9 @@ export const mediumPublications = [
   },
   {
     id: lazyId(),
-    title: "Refatorando código legado em projetos React — Parte IV",
-    imageUrl: "/img/medium/1_4RGbtG6JigriTDXzrO3IHQ.jpeg",
-    link: "https://medium.com/m4u-tech/refatorando-c%C3%B3digo-legado-em-projetos-react-parte-iv-2913d1251305",
+    title: 'Refatorando código legado em projetos React — Parte IV',
+    imageUrl: '/img/medium/1_4RGbtG6JigriTDXzrO3IHQ.jpeg',
+    link: 'https://medium.com/m4u-tech/refatorando-c%C3%B3digo-legado-em-projetos-react-parte-iv-2913d1251305',
     external: true,
     summary: (
       <>
@@ -240,9 +240,9 @@ export const mediumPublications = [
   },
   {
     id: lazyId(),
-    title: "Refatorando código legado em projetos React — Parte III",
-    imageUrl: "/img/medium/1_KycS0Nf5K2BuZ3xL98RRHg.jpeg",
-    link: "https://medium.com/m4u-tech/refatorando-c%C3%B3digo-legado-em-projetos-react-parte-iii-9b6bf4a1c98e",
+    title: 'Refatorando código legado em projetos React — Parte III',
+    imageUrl: '/img/medium/1_KycS0Nf5K2BuZ3xL98RRHg.jpeg',
+    link: 'https://medium.com/m4u-tech/refatorando-c%C3%B3digo-legado-em-projetos-react-parte-iii-9b6bf4a1c98e',
     external: true,
     summary: (
       <>
@@ -255,9 +255,9 @@ export const mediumPublications = [
   },
   {
     id: lazyId(),
-    title: "Refatorando código legado em projetos React — Parte II",
-    imageUrl: "/img/medium/1_68N_-STWm95NgsmD3rylbw.jpeg",
-    link: "https://medium.com/m4u-tech/refatorando-c%C3%B3digo-legado-em-projetos-react-parte-ii-f3c1d898c11e",
+    title: 'Refatorando código legado em projetos React — Parte II',
+    imageUrl: '/img/medium/1_68N_-STWm95NgsmD3rylbw.jpeg',
+    link: 'https://medium.com/m4u-tech/refatorando-c%C3%B3digo-legado-em-projetos-react-parte-ii-f3c1d898c11e',
     external: true,
     summary: (
       <>
@@ -269,9 +269,9 @@ export const mediumPublications = [
   },
   {
     id: lazyId(),
-    title: "Refatorando código legado em projetos React — Parte I",
-    imageUrl: "/img/medium/1_oUx6VMWbOlzjw9YnYmqLHg.jpeg",
-    link: "https://medium.com/m4u-tech/refatorando-c%C3%B3digo-legado-em-projetos-react-parte-i-2214fd9ee04d",
+    title: 'Refatorando código legado em projetos React — Parte I',
+    imageUrl: '/img/medium/1_oUx6VMWbOlzjw9YnYmqLHg.jpeg',
+    link: 'https://medium.com/m4u-tech/refatorando-c%C3%B3digo-legado-em-projetos-react-parte-i-2214fd9ee04d',
     external: true,
     summary: (
       <>

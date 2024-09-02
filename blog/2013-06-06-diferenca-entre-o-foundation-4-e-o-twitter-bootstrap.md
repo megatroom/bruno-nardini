@@ -44,7 +44,7 @@ A grid é o grande chamativo dos front-end framework, é o responsável pela má
 
 No Bootstrap você só define uma divisão de coluna, já no Foundation há como definir a divisão para o layouts acima (large) e abaixo (small) de 768px, permitindo uma melhor personalização. No bootstrap há a divisão entre Default grid system e Fluid grid system, que no Foundation não há essa divisão, mas que não parece fazer falta.
 
-Ambos permitem offset, e também aninhar as grids, mas o Foundation possui o large-centered e o small-centered que faz muita falta no Bootstrap.  Outra classe que também é muito útil que só tem no Foundation é o collapse, que junto com a classe row remove o espaçamento entre as colunas.
+Ambos permitem offset, e também aninhar as grids, mas o Foundation possui o large-centered e o small-centered que faz muita falta no Bootstrap. Outra classe que também é muito útil que só tem no Foundation é o collapse, que junto com a classe row remove o espaçamento entre as colunas.
 
 ### Block Grid x Thumbnails
 

@@ -11,4 +11,3 @@ Minha palestra no Rio Sul Valley Dev Summit 2017:
 <!--truncate-->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zzYPBZ5pHpQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-

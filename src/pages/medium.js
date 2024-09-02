@@ -1,9 +1,9 @@
-import React from "react";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Layout from "@theme/Layout";
+import React from 'react';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
 
-import Post from "../components/Post/Post";
-import { mediumPublications } from "../data";
+import Post from '../components/Post/Post';
+import { mediumPublications } from '../data';
 
 export default function Medium() {
   const context = useDocusaurusContext();

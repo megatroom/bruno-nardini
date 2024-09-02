@@ -8,7 +8,6 @@ image: /img/routes.jpg
 
 Criar rotas é uma tarefa bem simples, a maioria dos frameworks já dão suporte nativo, mas com o crescimento do projeto algumas decisões podem dificultar a manutenção. Neste artigo vou dar uma sugestão de como organizar as rotas para facilitar o desenvolvimento de projetos complexos.
 
-
 Os exemplos estarão usando apenas as bibliotecas React e React Router, mas o padrão pode ser usado para qualquer biblioteca de front-end ou até mesmo de back-end. O React Router também possui suporte para rotas estáticas e pode ser usado no Rails, Express, Koa, Ember, Angular, por exemplo.
 
 <!--truncate-->
@@ -28,13 +27,13 @@ import { Error404Container } from './Error';
 
 const Routes = () => (
   <Switch>
-    <Route path='/signin' component={SigninContainer} />
+    <Route path="/signin" component={SigninContainer} />
 
-    <PrivateRoute exact path='/' component={HomeContainer} />
+    <PrivateRoute exact path="/" component={HomeContainer} />
 
-    <PrivateRoute path='/users/new' component={UserFormContainer} />
-    <PrivateRoute path='/users/:id' component={UserFormContainer} />
-    <PrivateRoute path='/users' component={UserContainer} />
+    <PrivateRoute path="/users/new" component={UserFormContainer} />
+    <PrivateRoute path="/users/:id" component={UserFormContainer} />
+    <PrivateRoute path="/users" component={UserContainer} />
 
     <Route path="*" component={Error404Container} />
   </Switch>
@@ -97,8 +96,14 @@ const Routes = () => (
 
     <PrivateRoute exact path={paths.admin.path} component={HomeContainer} />
 
-    <PrivateRoute path={paths.admin.users.new.path} component={UserFormContainer} />
-    <PrivateRoute path={paths.admin.users.edit.path} component={UserFormContainer} />
+    <PrivateRoute
+      path={paths.admin.users.new.path}
+      component={UserFormContainer}
+    />
+    <PrivateRoute
+      path={paths.admin.users.edit.path}
+      component={UserFormContainer}
+    />
     <PrivateRoute path={paths.admin.users.path} component={UserContainer} />
 
     <Route path="*" component={Error404Container} />
@@ -112,7 +117,7 @@ Agora o objeto paths possui a estrutura de rotas do projeto, assim é possível 
 import { Link } from 'react-router-dom';
 import { paths } from '../Routes';
 
-<Link to={paths.admin.users.path}>Usuários</Link>
+<Link to={paths.admin.users.path}>Usuários</Link>;
 ```
 
 ## Breadcrumb
@@ -128,7 +133,6 @@ import { Link } from 'react-router-dom';
 
 import { paths } from '../../containers/Routes';
 
-
 const propTypes = {
   path: PropTypes.string.isRequired,
 };
@@ -140,7 +144,7 @@ const ContainerBreadcrumb = ({ path }) => {
   return (
     <div className="breadcrumb">
       {crumbs.map((item, index) => {
-        const isLast = crumbs.length === (index + 1);
+        const isLast = crumbs.length === index + 1;
         crumb = crumb[item];
 
         return (
@@ -154,11 +158,7 @@ const ContainerBreadcrumb = ({ path }) => {
             >
               {crumb.label}
             </Button>
-            {!isLast ? (
-              <Icon>
-                chevron_right
-              </Icon>
-            ) : null}
+            {!isLast ? <Icon>chevron_right</Icon> : null}
           </div>
         );
       })}
@@ -176,7 +176,7 @@ Agora para usar o componente basta importá-lo e usá-lo apenas com uma linha de
 ```jsx
 import { ContainerBreadcrumb } from '../../components';
 
-<ContainerBreadcrumb path="admin.users.new" />
+<ContainerBreadcrumb path="admin.users.new" />;
 ```
 
 O resultado é esse para o exemplo acima:

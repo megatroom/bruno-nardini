@@ -66,4 +66,3 @@ btnMessage.setOnClickListener(btnMessageOnClickListener);
 Dica O método `findViewById()` pode retornar null caso não encontre a view procurada.
 
 Agora está pronto seu evento `onClick`! Desta forma todos os problemas levantados no tópico anterior serão resolvidos com esta boa prática.
-

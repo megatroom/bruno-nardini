@@ -40,4 +40,4 @@ workflows:
       - install-dependencies
       - check-typescript:
           requires:
-            - install-dependencies      
+            - install-dependencies

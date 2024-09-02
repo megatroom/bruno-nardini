@@ -35,7 +35,7 @@ A integração do código nativo com o código em Java é feita do mesmo jeito q
 
 ## Desvantagens
 
-**Improdutivo**. Programação nativa não é simples e demanda mais tempo e conhecimento.  No caso do Android, você terá que ter um bom conhecimento sobre NDK, a própria linguagem nativa e o JNI, todos os três demandam um bom tempo de estudo.
+**Improdutivo**. Programação nativa não é simples e demanda mais tempo e conhecimento. No caso do Android, você terá que ter um bom conhecimento sobre NDK, a própria linguagem nativa e o JNI, todos os três demandam um bom tempo de estudo.
 
 **Dispensável para a maioria**. A própria Google afirma que a maioria dos aplicativos não necessita de desenvolvimento nativo e que deve ser usado somente em caso de última necessidade. Se seu aplicativo não exige nenhuma das vantagens citadas no tópico anterior, mantenha seu código em Java mesmo.
 

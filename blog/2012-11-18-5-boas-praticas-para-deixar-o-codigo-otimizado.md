@@ -4,6 +4,7 @@ title: 5 boas práticas para deixar o código otimizado
 description: 5 boas práticas para deixar o código otimizado
 tags: [backend]
 ---
+
 Seu programa é lento? Seu código demora a ser executado? Seu aplicativo ocasiona estouro de memória? Então acabaram seus problemas!
 
 Neste artigo irei citar 5 boas práticas simples para otimizar seu código, mas que fazem toda a diferença quando não se a praticam. Você poderá usar essas dicas em qualquer linguagem orientada a objeto, como Java, C#, C++, PHP, Ruby, entre outras.
