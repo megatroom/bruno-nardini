@@ -29,6 +29,13 @@ jobs:
       - *current_workspace
       - run: npm run type:check
 
+  check-format:
+    docker: *docker_image
+    steps:
+      - checkout
+      - *current_workspace
+      - run: npm run format:check
+
 workflows:
   test-e2e:
     jobs:
