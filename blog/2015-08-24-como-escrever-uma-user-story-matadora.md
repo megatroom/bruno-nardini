@@ -2,7 +2,7 @@
 slug: como-escrever-uma-user-story-matadora
 title: Como escrever uma user story matadora
 description: Como escrever uma user story matadora
-tags: [Processos Ágeis, Gestão de Processos, Gestão de Projetos, Kanban, Scrum]
+tags: [agile]
 image: /img/scrum_board.jpg
 ---
 

@@ -2,7 +2,7 @@
 slug: android-boas-praticas-para-o-evento-onclick
 title: Android – Boas Práticas para o evento onClick
 description: Boas Práticas para o evento onClick no Android
-tags: [Mobile, Android]
+tags: [mobile]
 ---
 
 Nesta dica irei abordar sobre boas práticas (best practices) de como definir o evento `onClick` dos botões no Android.
@@ -29,7 +29,7 @@ Note na linha 7 que foi adicionado a propriedade `android:onClick` com o valor `
 
 ```java
 public void btnMessageOnClick() {
-    Toast.makeText(MainActivity.this, "Hello World", 
+    Toast.makeText(MainActivity.this, "Hello World",
         Toast.LENGTH_LONG).show();
 }
 ```
@@ -50,7 +50,7 @@ Remova o método `btnMessageOnClick()` e coloque este listener no lugar:
 private OnClickListener btnMessageOnClickListener = new OnClickListener() {
     @Override
     public void onClick(View v) {
-        Toast.makeText(MainActivity.this, "Hello World", 
+        Toast.makeText(MainActivity.this, "Hello World",
             Toast.LENGTH_LONG).show();
     }
 };

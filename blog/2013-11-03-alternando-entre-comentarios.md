@@ -2,7 +2,7 @@
 slug: alternando-entre-comentarios
 title: Alternando entre comentários
 description: Alternando entre comentários
-tags: [Back-end, Front-end]
+tags: [backend, frontend]
 ---
 
 Abra sua IDE e coloque o seguinte código:

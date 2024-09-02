@@ -2,7 +2,7 @@
 slug: como-fazer-o-daily-scrum-stand-up-meetings-de-forma-mais-produtiva
 title: Como fazer o Daily Scrum (Stand Up Meetings) de forma mais produtiva
 description: Como fazer o Daily Scrum (Stand Up Meetings) de forma mais produtiva
-tags: [Processos Ágeis, Gestão de Processos, Gestão de Projetos, Scrum]
+tags: [agile]
 image: /img/daily-scrum.jpg
 ---
 
@@ -35,7 +35,7 @@ Se o time estiver bem alinhado no dia a dia, não precisa passar tarefa a tarefa
 Pode parecer que dessa forma é semelhante a cada um responder as 3 perguntas, mas dessa forma traz o seguintes benefícios:
 
 - Tem o fator psicológico do time, todos passam a se preocupar mais com a entrega do sprint do que com os indivíduos.
-  
+
 - Fica mais fácil de manter o quadro atualizado, pois todos vão ter que atualizar o quadro antes do Daily ou ele pode ser atualizado durante.
 
 - Evita constrangimentos ou cobranças desnecessárias. Se alguém do time se ausentou por motivos pessoais, mas o sprint está indo bem, não há questionamentos desnecessários sobre o dia dessa pessoa.

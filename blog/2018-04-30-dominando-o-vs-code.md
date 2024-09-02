@@ -2,7 +2,7 @@
 slug: dominando-o-vs-code
 title: Dominando o VS Code
 description: Neste artigo vou mostrar como eu o turbinei com plugins e configurações para ser muito mais produtivo.
-tags: [Front-end, Back-end, VS Code, Produtividade]
+tags: [frontend, backend]
 image: /img/vscode-bg.png
 ---
 
@@ -64,10 +64,10 @@ Configurações do ambiente:
 
 ```js
 {
-  /* Exibe uma linha para que ajuda a demarcar o limite de caracters. 
+  /* Exibe uma linha para que ajuda a demarcar o limite de caracters.
   80 é o valor padrão do Prittier */
   "editor.rulers": [80],
-  /* Alguns arquivos são inconvenientes na hora de realizar uma busca, 
+  /* Alguns arquivos são inconvenientes na hora de realizar uma busca,
   então eu removo algumas extensões. */
   "files.exclude": {
       "**/.git": true,
@@ -77,7 +77,7 @@ Configurações do ambiente:
       "build/**/*.*": true,
       "coverage/**/*.*": true
   },
-  /* O VSCode exibe o conteúdo quando clico no arquivo, isso me atrapalha muito, 
+  /* O VSCode exibe o conteúdo quando clico no arquivo, isso me atrapalha muito,
   então eu deixo desabilitado */
   "explorer.autoReveal": false,
   /* Remove espaço a direita de todas as linhas ao salvar o arquivo */

@@ -2,7 +2,7 @@
 slug: unheap-lista-de-plugins-de-jquery
 title: Unheap – Lista de Plugins de JQuery
 description: Lista de Plugins de JQuery
-tags: [Front-end, JQuery]
+tags: [frontend]
 ---
 
 Quem não já se pegou no google procurando por plugins em JQuery? A Unheap tornou esse trabalho mais fácil, criou uma plataforma organizada com diversos plugins de boa qualidade, com opções para todos os gostos.

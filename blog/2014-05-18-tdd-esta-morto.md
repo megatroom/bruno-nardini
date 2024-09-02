@@ -2,7 +2,7 @@
 slug: tdd-esta-morto
 title: TDD está morto?
 description: TDD está morto? Neste post darei minha contribuição para a discussão e ajudarei a esclarecer alguns pontos cegos.
-tags: [Processos Ágeis, TDD, Testes]
+tags: [agile]
 ---
 
 Recentemente o David Heinemeier Hansson (DHH) publicou um post com o polêmico título [“TDD is dead. Long live testing.”](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html) (TDD está morto. Longa vida ao teste) que teve grande repercussão e a comunidade tem falado só sobre isso ultimamente. E isso não poderia ter acontecido em melhor hora, pois eu estou exatamente preparando um treinamento de TDD e BDD, então estou com muita informação para debater o assunto.
@@ -30,13 +30,13 @@ Por definição, o teste de unidade não pode fazer integração, isso inclui in
 Então vários problemas começam a surgir com esse acoplamento:
 
 - Alguns começaram a fazer testes utilizando um banco de dados de teste, mas continuaram  chamando de teste de unidade, o que contradiz o conceito.
-  
+
 - Outros além do teste citado acima, fazia TDD. Se TDD é feito com teste de unidade, então cai no mesmo problema da utilização do banco de dados.
-  
+
 - Na tentativa de fazer os testes de unidade sem o banco de dados, alguns tentaram resolver o problema do acoplamento, gerando designs monstro só para testar isoladamente cada parte.
-  
+
 - Já que tudo é bem amarrado, muitos faziam teste de sistema e deixava o teste de unidade de lado.
-  
+
 - O restante simplesmente deixava isso pra lá e ficava sem teste mesmo. O que é o pior de tudo.
 
 E o problema não está só no Active Record, o David também reclamou sobre o “design-monstro” que é gerado ao tentar fazer teste de unidade no Controller, alegando que deixava o código nada legível.

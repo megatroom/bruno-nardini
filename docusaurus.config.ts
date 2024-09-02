@@ -65,11 +65,11 @@ const config: Config = {
           items: [
             {
               label: 'Front-end',
-              to: '/blog/tags/front-end',
+              to: '/blog/tags/frontend',
             },
             {
               label: 'Back-end',
-              to: '/blog/tags/back-end',
+              to: '/blog/tags/backend',
             },
             {
               label: 'Mobile',
@@ -77,11 +77,11 @@ const config: Config = {
             },
             {
               label: 'Carreira',
-              to: '/blog/tags/carreira',
+              to: '/blog/tags/career',
             },
             {
               label: 'Processos Ágeis',
-              to: '/blog/tags/processos-ageis',
+              to: '/blog/tags/agile',
             },
           ],
         },
@@ -128,9 +128,9 @@ const config: Config = {
             copyright: `Copyright © ${new Date().getFullYear()} Bruno Nardini.`,
           },
           postsPerPage: 9,
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onInlineTags: 'throw',
+          onInlineAuthors: 'throw',
+          onUntruncatedBlogPosts: 'throw',
         },
         theme: {
           customCss: './src/css/custom.css',

@@ -2,7 +2,7 @@
 slug: notificacoes-toast-react-e-redux
 title: Notificações, Toast, React e Redux
 description: Notificações, Toast, React e Redux
-tags: [Front-end, JavaScript, React, Redux, Redux-Saga]
+tags: [frontend, react]
 image: /img/blue_bg_react.png
 ---
 

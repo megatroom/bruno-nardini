@@ -2,7 +2,7 @@
 slug: android-desenvolvimento-nativo
 title: Android - Desenvolvimento Nativo
 description: Desenvolvimento Nativo no Android
-tags: [Mobile, Android, C++, JNI, NDK]
+tags: [mobile]
 ---
 
 Assim como outras plataformas para dispositivos móveis, o Android oferece a opção de desenvolver código em linguagem nativa em seus aplicativos, como as linguagens C e C++.
